@@ -1,6 +1,6 @@
 <?php
 
-namespace gutink\Cron;
+namespace Gutink\Cron;
 
 use DateTime;
 use DateTimeImmutable;
@@ -62,7 +62,7 @@ class CronExpression
      * @param string $expression The CRON expression to validate.
      *
      * @return bool True if a valid CRON expression was passed. False if not.
-     * @see \gutink\Cron\CronExpression::factory
+     * @see \Gutink\Cron\CronExpression::factory
      */
     public static function isValidExpression($expression)
     {
@@ -185,7 +185,7 @@ class CronExpression
      *
      * @return \DateTime
      * @throws \RuntimeException on too many iterations
-     * @see \gutink\Cron\CronExpression::getNextRunDate
+     * @see \Gutink\Cron\CronExpression::getNextRunDate
      */
     public function getPreviousRunDate($currentTime = 'now', $nth = 0, $allowCurrentDate = false, $timeZone = null)
     {

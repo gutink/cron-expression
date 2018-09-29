@@ -3,13 +3,13 @@
  * Author: Haibin
  */
 
-namespace gutink\Cron;
+namespace Gutink\Cron;
 
 /**
  * Class ExpressionBuilder
  * crontab表达式生成器
  * 每个字段默认是*
- * @package gutink\Cron
+ * @package Gutink\Cron
  */
 class ExpressionBuilder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace gutink\Cron;
+namespace Gutink\Cron;
 
 use DateTime;
 use InvalidArgumentException;
