@@ -20,7 +20,7 @@
 
   "autoload": {
     "psr-4": {
-      "gutink\\": "src/gutink"
+      "gutink\\Cron\\": "src/gutink"
     }
   }
 }
