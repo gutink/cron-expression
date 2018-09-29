@@ -1,7 +1,6 @@
 {
   "name": "gutink/cron-parser",
   "description": "parser for cron expression",
-  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
