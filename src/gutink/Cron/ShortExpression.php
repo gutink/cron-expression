@@ -3,12 +3,12 @@
  * Author: Haibin
  */
 
-namespace Joysec\Cron;
+namespace gutink\Cron;
 
 /**
  * Class ShortExpression
  * 短表达式，最小单位是天
- * @package Joysec\Cron
+ * @package gutink\Cron
  */
 class ShortExpression extends CronExpression
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Joysec\Cron;
+namespace gutink\Cron;
 
 /**
  * Abstract CRON expression field
