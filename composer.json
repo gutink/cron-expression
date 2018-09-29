@@ -1,12 +1,12 @@
 {
-  "name": "joysec/cron-parser",
+  "name": "gutink/cron-parser",
   "description": "parser for cron expression",
   "minimum-stability": "dev",
   "license": "no",
   "authors": [
     {
-      "name": "Haibin",
-      "email": "yhb@joysec.com"
+      "name": "gutink",
+      "email": "gjj9527@163.com"
     }
   ],
   "repositories": {
@@ -16,12 +16,12 @@
     }
   },
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.0.0"
   },
 
   "autoload": {
     "psr-4": {
-      "Joysec\\": "src/Joysec"
+      "gutink\\": "src/gutink"
     }
   }
 }
